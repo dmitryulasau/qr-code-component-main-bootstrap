@@ -4,60 +4,38 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Outfit", sans-serif;
 }
 
 :root {
   /* Colors */
-  --white: hsl(0, 0%, 100%);
+  --white: #ffffff;
   --slate-300: #d5e1ef;
   --slate-500: #68778d;
   --slate-900: #1f314f;
 }
 
-.container {
-  height: 100vh;
+.container-fluid {
   background-color: var(--slate-300);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 .card {
-  width: 100%;
-  max-width: 320px;
+  border-radius: 1.25rem;
   height: 500px;
-  background-color: var(--white);
-  padding: 16px 16px 40px 16px;
-  border-radius: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.card__image {
-  max-width: 288px;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 24px;
+.card-img {
+  min-width: 288px;
 }
 
-.card__heading {
-  text-align: center;
+.card-title {
   font-size: 22px;
-  font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0px;
   color: var(--slate-900);
-  margin-bottom: 16px;
 }
 
-.card__text {
-  text-align: center;
+.card-text {
   font-size: 15px;
-  font-weight: 400;
   line-height: 140%;
-  letter-spacing: 0.2px;
   color: var(--slate-500);
 }
