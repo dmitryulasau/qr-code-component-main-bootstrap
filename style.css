@@ -20,11 +20,12 @@ body {
 }
 
 .card {
+  background-color: var(--white);
   border-radius: 1.25rem;
   height: 500px;
 }
 
-.card-img {
+.card__img {
   min-width: 288px;
 }
 
